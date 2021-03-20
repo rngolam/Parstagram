@@ -71,7 +71,7 @@
                     <connections>
                         <outlet property="passwordField" destination="Yer-3H-ryo" id="ivp-Qt-u63"/>
                         <outlet property="usernameField" destination="hRz-OV-T0N" id="UsF-TS-tu4"/>
-                        <segue destination="n8P-rR-XUb" kind="presentation" identifier="loginSegue" id="BN1-7r-gKE"/>
+                        <segue destination="n8P-rR-XUb" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="BN1-7r-gKE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,7 +83,7 @@
             <objects>
                 <viewController id="onF-xr-8RR" customClass="FeedViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3h0-iP-Fps">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="F5P-hU-Nca">
@@ -211,7 +211,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n8P-rR-XUb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fVX-z8-4Qt">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
